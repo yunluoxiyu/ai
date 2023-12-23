@@ -82,7 +82,7 @@ watch(()=>f.value.model,(n)=>{
     <n-select v-model:value="f.size" :options="dimensionsList" size="small"  class="!w-[70%]" :clearable="false" />
 </section>
 <div class="mb-1">
-     <n-input    type="textarea"  v-model:value="f.prompt"   placeholder="提示词" round clearable maxlength="500" show-count 
+     <n-input    type="textarea"  v-model:value="f.prompt"   placeholder="写下你的图像描述" round clearable  show-count 
       :autosize="{   minRows:3, maxRows:10 }" />
 </div>
 
