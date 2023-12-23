@@ -10,7 +10,7 @@ const config = ref({
 // ,`gpt-4-vision-preview`,`gpt-3.5-turbo-1106` 
 // ,'gpt-3.5-turbo-0301','gpt-3.5-turbo-0613','gpt-4-all','gpt-3.5-net','tts-1']
 model:[
-"GPT-4-0613","GPT-4-32K-0613","gpt-4-1106-preview","gpt-4-vision-preview","gpt-4-all","net-gpt-4","gpt-3.5-turbo","gpt-3.5-turbo-1106","net-gpt-3.5-turbo","tts-1-1106","tts-1-hd","tts-1-hd-1106","text-moderation-latest"
+"gpt-4","gpt-4-32K","gpt-4-1106-preview","gpt-4-vision-preview","gpt-4-all","net-gpt-4","gpt-3.5-turbo","gpt-3.5-turbo-1106","net-gpt-3.5-turbo","tts-1-1106","tts-1-hd","tts-1-hd-1106","text-moderation-latest"
 ]
 ,maxToken:2048
 }); 
