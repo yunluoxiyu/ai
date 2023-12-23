@@ -217,7 +217,7 @@ const exportToTxt= async ()=>{
 
      </section> -->
     <div class="mb-1">
-     <n-input    type="textarea"  v-model:value="st.text"   placeholder="提示词" round clearable maxlength="500" show-count 
+     <n-input    type="textarea"  v-model:value="st.text"   placeholder="写下你的图像描述" round clearable  show-count 
       :autosize="{   minRows:2, maxRows:5 }" />
     </div>
     <div class="mb-4 flex justify-between items-center">
