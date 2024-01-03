@@ -79,8 +79,8 @@ export interface gptServerType{
 const  getServerDefault=()=>{
 let v:gptServerType={
         OPENAI_API_KEY:'',
-        OPENAI_API_BASE_URL:'',
-        MJ_SERVER:'',
+        OPENAI_API_BASE_URL:'https://hk-api.gptbest.vip',
+        MJ_SERVER:'https://hk-api.gptbest.vip',
         UPLOADER_URL:'',
         MJ_API_SECRET:''
     }
