@@ -14,13 +14,13 @@ const save = ()=>{
 <template>
 <div id="setserver"> 
 <div class="text-right">OpenAI 相关</div>
-<section class="mb-4 flex justify-between items-center"  >
+<!-- <section class="mb-4 flex justify-between items-center"  >
     <n-input   placeholder="必须包含 http(s)://" v-model:value="gptServerStore.myData.OPENAI_API_BASE_URL" clearable>
       <template #prefix>
         <span class="text-[var(--n-tab-text-color-active)]">OpenAI接口地址:</span>
       </template>
     </n-input>
- </section>
+ </section> -->
 
 <section class="mb-4 flex justify-between items-center"  >
     <n-input type="password"  placeholder="使用自定义 OpenAI Key 绕过密码访问限制 " show-password-on="click" v-model:value="gptServerStore.myData.OPENAI_API_KEY" clearable>
@@ -32,13 +32,13 @@ const save = ()=>{
 
 
 <div  class="text-right" >Midjourney 相关</div>
-<section class="mb-4 flex justify-between items-center"  >
-    <n-input   placeholder="必须包含 http(s)://" v-model:value="gptServerStore.myData.MJ_SERVER" clearable>
-      <template #prefix>
-        <span class="text-[var(--n-tab-text-color-active)]">Midjourney接口地址:</span>
-      </template>
-    </n-input>
- </section>
+<!-- <section class="mb-4 flex justify-between items-center">
+      <NInput v-model:value="gptServerStore.myData.MJ_SERVER" placeholder="必须包含 http(s)://" clearable>
+        <template #prefix>
+          <span class="text-[var(--n-tab-text-color-active)]">Midjourney接口地址:</span>
+        </template>
+      </NInput>
+    </section> -->
 
 <section class="mb-4 flex justify-between items-center"  >
     <n-input type="password"  placeholder="使用自定义 Api Secret 绕过密码访问限制 " show-password-on="click" v-model:value="gptServerStore.myData.MJ_API_SECRET" clearable>
